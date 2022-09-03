@@ -1,10 +1,8 @@
-package com.example.examplemod;
+package com.scp096.firsttrip;
 
-import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
-import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.common.util.EnumHelper;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -12,10 +10,10 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = ExampleMod.MODID, name = ExampleMod.NAME, version = ExampleMod.VERSION)
-public class ExampleMod {
+@Mod(modid = FirstTripMode.MODID, name = FirstTripMode.NAME, version = FirstTripMode.VERSION)
+public class FirstTripMode {
     public static final String MODID = "firsttrip";
-    public static final String NAME = "First Sword";
+    public static final String NAME = "First Trip";
     public static final String VERSION = "1.0";
 
     private static Logger logger;
@@ -26,7 +24,7 @@ public class ExampleMod {
     public void preInit(FMLPreInitializationEvent event) {
         logger = event.getModLog();
 
-        myToolMaterial = EnumHelper.addToolMaterial("test", 4, 10000, 20.0F, 100.0F, 30);
+        myToolMaterial = EnumHelper.addToolMaterial("test", 4, 10000, 20.0F, 10000.0F, 30);
         mySword = new CustomSword(myToolMaterial);
     }
 

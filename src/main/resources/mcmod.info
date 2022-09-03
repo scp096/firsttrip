@@ -1,7 +1,7 @@
 [
 {
   "modid": "firsttrip",
-  "name": "First Sword",
+  "name": "First Trip",
   "description": "mod example",
   "version": "${version}",
   "mcversion": "${mcversion}",

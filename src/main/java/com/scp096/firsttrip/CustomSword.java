@@ -1,13 +1,11 @@
-package com.example.examplemod;
+package com.scp096.firsttrip;
 
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.ItemSword;
 
 public class CustomSword extends ItemSword {
     public CustomSword(ToolMaterial material) {
-        super(ExampleMod.myToolMaterial);
+        super(material);
         this.setRegistryName("my_sword");
         this.setUnlocalizedName("my_sword");
-        this.setCreativeTab(CreativeTabs.COMBAT);
     }
 }
