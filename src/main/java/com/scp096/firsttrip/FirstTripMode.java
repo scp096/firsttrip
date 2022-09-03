@@ -19,6 +19,7 @@ public class FirstTripMode {
     private static Logger logger;
     public static ToolMaterial myToolMaterial;
     public static Item mySword;
+    public static Item geoPick;
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
@@ -26,6 +27,7 @@ public class FirstTripMode {
 
         myToolMaterial = EnumHelper.addToolMaterial("test", 4, 10000, 20.0F, 10000.0F, 30);
         mySword = new CustomSword(myToolMaterial);
+        geoPick = new GeoPick();
     }
 
     @EventHandler

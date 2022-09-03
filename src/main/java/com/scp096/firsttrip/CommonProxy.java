@@ -13,16 +13,18 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class CommonProxy {
     @SubscribeEvent
     public static void registerRenders(ModelRegistryEvent event) {
-        registerRender(FirstTripMode.mySword);
+        registerRender(FirstTripMode.mySword, "models/item/my_sword.json");
+        registerRender(FirstTripMode.geoPick, "models/item/geo_pick.json");
+
     }
 
-    private static void registerRender(Item item) {
-        ResourceLocation location = item.getRegistryName() != null ? item.getRegistryName() : new ResourceLocation(FirstTripMode.MODID, "models/item/my_sword.json");
+    private static void registerRender(Item item, String sourcePath) {
+        ResourceLocation location = item.getRegistryName() != null ? item.getRegistryName() : new ResourceLocation(FirstTripMode.MODID, sourcePath);
         ModelLoader.setCustomModelResourceLocation(item, 0, new ModelResourceLocation(location, "inventory"));
     }
 
     @SubscribeEvent
     public static void registerItems(RegistryEvent.Register<Item> event) {
-        event.getRegistry().registerAll(FirstTripMode.mySword);
+        event.getRegistry().registerAll(FirstTripMode.mySword, FirstTripMode.geoPick);
     }
 }
