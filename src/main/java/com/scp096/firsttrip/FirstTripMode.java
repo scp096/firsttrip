@@ -1,5 +1,7 @@
 package com.scp096.firsttrip;
 
+import com.scp096.firsttrip.items.CustomSword;
+import com.scp096.firsttrip.items.GeoPick;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.Item.ToolMaterial;
