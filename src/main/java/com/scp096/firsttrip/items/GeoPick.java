@@ -1,4 +1,4 @@
-package com.scp096.firsttrip;
+package com.scp096.firsttrip.items;
 
 import net.minecraft.item.ItemPickaxe;
 import net.minecraftforge.common.util.EnumHelper;

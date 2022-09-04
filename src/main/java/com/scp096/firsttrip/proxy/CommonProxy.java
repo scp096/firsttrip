@@ -1,5 +1,6 @@
-package com.scp096.firsttrip;
+package com.scp096.firsttrip.proxy;
 
+import com.scp096.firsttrip.FirstTripMode;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.item.Item;
 import net.minecraft.util.ResourceLocation;

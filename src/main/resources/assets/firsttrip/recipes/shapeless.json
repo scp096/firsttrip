@@ -1,0 +1,16 @@
+{
+  "type" : "forge:ore_shapeless",
+
+  "ingredients" : [
+    [
+      { "item" :  "minecraft:stone",
+        "data" : 32767
+      },
+      { "item" : "minecraft:diamond"}
+    ]
+  ],
+  "result" : {
+    "item" : "minecraft:gold",
+    "count" : 64
+  }
+}
