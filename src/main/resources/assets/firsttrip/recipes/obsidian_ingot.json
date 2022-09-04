@@ -14,7 +14,7 @@
   },
 
   "result" : {
-    "item" : "minecraft:obsidian",
+    "item" : "firsttrip:obsidian_ingot_block",
     "count" : 1
   }
 }

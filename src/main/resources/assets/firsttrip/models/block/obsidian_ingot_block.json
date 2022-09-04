@@ -1,0 +1,6 @@
+{
+  "parent" : "block/cube_all",
+  "textures" : {
+    "all" : "firsttrip:block/obsidian_ingot_block"
+  }
+}
