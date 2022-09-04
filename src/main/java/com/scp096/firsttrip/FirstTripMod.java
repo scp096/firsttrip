@@ -12,8 +12,8 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = FirstTripMode.MODID, name = FirstTripMode.NAME, version = FirstTripMode.VERSION)
-public class FirstTripMode {
+@Mod(modid = FirstTripMod.MODID, name = FirstTripMod.NAME, version = FirstTripMod.VERSION)
+public class FirstTripMod {
     public static final String MODID = "firsttrip";
     public static final String NAME = "First Trip";
     public static final String VERSION = "1.0";
