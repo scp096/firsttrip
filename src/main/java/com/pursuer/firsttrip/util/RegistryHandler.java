@@ -1,16 +1,12 @@
-package com.scp096.firsttrip.util;
+package com.pursuer.firsttrip.util;
 
-import com.scp096.firsttrip.init.ModItems;
+import com.pursuer.firsttrip.init.ModItems;
 import net.minecraft.item.Item;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-/**
- * @author Geooo
- * @date 2022/9/4 13:58
- */
 @Mod.EventBusSubscriber
 public class RegistryHandler {
 

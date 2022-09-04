@@ -1,20 +1,16 @@
-package com.scp096.firsttrip.items;
+package com.pursuer.firsttrip.items;
 
-import com.scp096.firsttrip.init.ModItems;
-import com.scp096.firsttrip.proxy.ClientProxy;
-import com.scp096.firsttrip.util.IHasModel;
+import com.pursuer.firsttrip.proxy.ClientProxy;
+import com.pursuer.firsttrip.util.IHasModel;
+import com.pursuer.firsttrip.init.ModItems;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
 /**
- * 物品栏物品模板
- * @author Geooo
- * @date 2022/9/4 11:37
+ * Item Materials Template
  */
-public class ItemBase extends Item implements IHasModel {
-
-
-    public ItemBase(String name) {
+public class ItemMaterialBase extends Item implements IHasModel {
+    public ItemMaterialBase(String name) {
         setUnlocalizedName(name);
         setRegistryName(name);
         setCreativeTab(CreativeTabs.MATERIALS);
