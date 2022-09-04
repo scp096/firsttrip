@@ -40,4 +40,25 @@
 
 * **key(合成材料key)** : 一个key/value类型的map，key是pattern合成顺序上的字符，value是字符对应的合成物品ID
 
-  
+```json
+{
+  "type" : "minecraft:crafting_shaped",
+
+  "pattern" : [
+    "RRR",
+    "RRR",
+    "RRR"
+  ],
+
+  "key" : {
+    "R" : {
+      "item" : "firsttrip:obsidian_ingot"
+    }
+  },
+
+  "result" : {
+    "item" : "minecraft:obsidian",
+    "count" : 1
+  }
+}
+```
